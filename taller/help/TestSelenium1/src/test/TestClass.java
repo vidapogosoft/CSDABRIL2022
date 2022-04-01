@@ -21,7 +21,7 @@ public class TestClass {
             System.out.println("defino la ruta del exe a utilizar");
 
         System.setProperty("webdriver.chrome.driver"
-                ,"D:\\vidapogosoft\\cursos\\2021\\SINERGIASS\\Workshop092021\\Herramientas\\chromedriver.exe");
+                ,"D:\\vidapogosoft\\cursos\\2022\\sinergiass\\CSDAbril2022\\herramientas\\chromedriver.exe");
 
 
         System.out.println("definir el driver de selenium");
@@ -57,12 +57,7 @@ public class TestClass {
         WebElement ChkHobbie3 = driver.findElement(By.id("hobbies-checkbox-3"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].checked = true", ChkHobbie3);
 
-        //dateOfBirthInput
-
-        //no funciono
-        //driver.findElement(By.id("dateOfBirthInput")).sendKeys("12-10-1980");
-
-        //   //*[@id='dateOfBirthInput']
+        
         Actions actions = new Actions(driver);
         actions.moveToElement(driver.findElement(By.xpath("//*[@id='dateOfBirthInput']")));
         actions.click();
