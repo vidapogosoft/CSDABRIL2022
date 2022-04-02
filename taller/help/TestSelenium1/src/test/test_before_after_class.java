@@ -15,7 +15,7 @@ public class test_before_after_class {
         System.out.print("Browser Open");
 
         System.setProperty("webdriver.chrome.driver"
-                ,"D:\\vidapogosoft\\cursos\\2021\\SINERGIASS\\Workshop092021\\Herramientas\\chromedriver.exe");
+                ,"D:\\vidapogosoft\\cursos\\2022\\sinergiass\\CSDAbril2022\\herramientas\\chromedriver.exe");
 
 
         driver  = new ChromeDriver();

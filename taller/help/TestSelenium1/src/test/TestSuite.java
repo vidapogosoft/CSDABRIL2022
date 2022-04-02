@@ -11,7 +11,7 @@ public class TestSuite {
     public void TestAssert1()
     {
         System.setProperty("webdriver.chrome.driver"
-                ,"D:\\vidapogosoft\\cursos\\2021\\SINERGIASS\\Workshop092021\\Herramientas\\chromedriver.exe");
+                ,"D:\\vidapogosoft\\cursos\\2022\\sinergiass\\CSDAbril2022\\herramientas\\chromedriver.exe");
 
         WebDriver driver  = new ChromeDriver();
         driver.manage().window().maximize();
@@ -33,7 +33,7 @@ public class TestSuite {
     {
 
         System.setProperty("webdriver.chrome.driver"
-                ,"D:\\vidapogosoft\\cursos\\2021\\SINERGIASS\\Workshop092021\\Herramientas\\chromedriver.exe");
+                ,"D:\\vidapogosoft\\cursos\\2022\\sinergiass\\CSDAbril2022\\herramientas\\chromedriver.exe");
 
         WebDriver driver  = new ChromeDriver();
         driver.manage().window().maximize();

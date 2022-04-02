@@ -57,7 +57,7 @@ public class TestClass {
         WebElement ChkHobbie3 = driver.findElement(By.id("hobbies-checkbox-3"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].checked = true", ChkHobbie3);
 
-        
+        ////*[@id="dateOfBirthInput"]
         Actions actions = new Actions(driver);
         actions.moveToElement(driver.findElement(By.xpath("//*[@id='dateOfBirthInput']")));
         actions.click();
