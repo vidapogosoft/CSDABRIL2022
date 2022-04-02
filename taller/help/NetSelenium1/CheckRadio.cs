@@ -17,7 +17,7 @@ namespace NetSelenium1
         public void Test1()
         {
 
-            IWebDriver driver = new ChromeDriver(@"D:\vidapogosoft\cursos\2021\SINERGIASS\Workshop092021\Herramientas\");
+            IWebDriver driver = new ChromeDriver(@"D:\vidapogosoft\cursos\2022\sinergiass\CSDAbril2022\herramientas\");
 
             driver.Navigate().GoToUrl("http://demo.guru99.com/test/radio.html");
 

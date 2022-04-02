@@ -21,7 +21,8 @@ public class StepOutline {
     @Given("Abre el web browser Chrome y direcciona a la aplicacion$")
     public void open_the_web_browser() throws Throwable {
 
-        System.setProperty("webdriver.chrome.driver", "D://vidapogosoft//cursos//2021//SINERGIASS//CSD//herramientas//chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver",
+                "D:\\vidapogosoft\\cursos\\2022\\sinergiass\\CSDAbril2022\\herramientas\\chromedriver.exe");
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();

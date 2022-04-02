@@ -14,7 +14,7 @@ namespace NetSelenium1
     public class UnitTest1
     {
         //Se Inicializa el driver de manera global
-        public IWebDriver driver = new ChromeDriver(@"D:\vidapogosoft\cursos\2021\SINERGIASS\Workshop092021\Herramientas\");
+        public IWebDriver driver = new ChromeDriver(@"D:\vidapogosoft\cursos\2022\sinergiass\CSDAbril2022\herramientas\");
         
         //intancia de manera global la URL de la pagian a testear
         public string url = "https://admin-sysnnova.com/OpenFact/Account/Login.aspx";

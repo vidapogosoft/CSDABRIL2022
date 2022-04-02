@@ -14,7 +14,7 @@ namespace NetSelenium1
         public void TestPage()
         {
 
-            IWebDriver driver = new ChromeDriver(@"D:\vidapogosoft\cursos\2021\SINERGIASS\Workshop092021\Herramientas\");
+            IWebDriver driver = new ChromeDriver(@"D:\vidapogosoft\cursos\2022\sinergiass\CSDAbril2022\herramientas\");
 
             driver.Navigate().GoToUrl("http://www.tizag.com/phpT/examples/formex.php");
 
@@ -53,7 +53,7 @@ namespace NetSelenium1
 
             Screenshot screen = foto.GetScreenshot();
 
-            screen.SaveAsFile(@"D:\vidapogosoft\cursos\2021\SINERGIASS\Workshop092021\Herramientas\" + DateTime.Now.Ticks.ToString() + ".png");
+            screen.SaveAsFile(@"D:\vidapogosoft\cursos\2022\sinergiass\CSDAbril2022\herramientas\" + DateTime.Now.Ticks.ToString() + ".png");
 
 
         }
