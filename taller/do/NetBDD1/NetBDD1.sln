@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetBDD1", "NetBDD1.csproj", "{426E1093-24B1-49EA-A239-AAE1DDFAB672}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{426E1093-24B1-49EA-A239-AAE1DDFAB672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{426E1093-24B1-49EA-A239-AAE1DDFAB672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{426E1093-24B1-49EA-A239-AAE1DDFAB672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{426E1093-24B1-49EA-A239-AAE1DDFAB672}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0212637-B137-47FE-A09E-5378D10CFC83}
+	EndGlobalSection
+EndGlobal
