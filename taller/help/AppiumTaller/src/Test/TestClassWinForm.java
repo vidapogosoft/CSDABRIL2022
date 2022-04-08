@@ -21,7 +21,7 @@ public class TestClassWinForm {
             DesiredCapabilities capabilities = new DesiredCapabilities();
 
             capabilities.setCapability("app",
-                    "C:\\vidapogosoft\\cursos\\2021\\CSD\\TesForm\\AppWinForm1.exe");
+                    "D:\\vidapogosoft\\cursos\\2022\\sinergiass\\CSDAbril2022\\herramientas\\AppWinForm1.exe");
 
             NewSessionExe = new WindowsDriver(new URL("http://127.0.0.1:4723"), capabilities);
 
