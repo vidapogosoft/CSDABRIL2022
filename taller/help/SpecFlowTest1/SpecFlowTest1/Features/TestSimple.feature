@@ -8,6 +8,7 @@ Scenario: Login Exitoso
 	And realiza click en boton Login
 	Then Login es exitoso
 
+
 Scenario: Salir
 	When usuario realiza LogOut
 	Then Salio de aplicacion

@@ -70,12 +70,10 @@ namespace SpecFlowTest1.Features
             testRunner.CollectScenarioErrors();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Login Exitoso con parametros DataTable", new string[] {
-                "mytag1"}, SourceLine=4)]
+        [TechTalk.SpecRun.ScenarioAttribute("Login Exitoso con parametros DataTable", SourceLine=4)]
         public virtual void LoginExitosoConParametrosDataTable()
         {
-            string[] tagsOfScenario = new string[] {
-                    "mytag1"};
+            string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Login Exitoso con parametros DataTable", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 5
